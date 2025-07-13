@@ -1,0 +1,62 @@
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #0a0e1a;
+  color: white;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.card {
+  background-color: #1a1f2e;
+  padding: 2rem;
+  border-radius: 12px;
+  width: 90%;
+  max-width: 600px;
+  text-align: center;
+}
+.logo {
+  width: 80px;
+  margin-bottom: 1rem;
+}
+.tabs {
+  margin: 1rem 0;
+}
+.tab {
+  background: #2a2f45;
+  border: none;
+  color: white;
+  padding: 0.5rem 1rem;
+  margin: 0 0.3rem;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.tab.active {
+  background: #3f8cff;
+}
+.configs {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+.config-card {
+  background: #2a2f45;
+  padding: 1rem;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+button {
+  background: #3f8cff;
+  border: none;
+  padding: 0.4rem 0.8rem;
+  border-radius: 4px;
+  color: white;
+  cursor: pointer;
+}
